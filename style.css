@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
+/*CSS SITE*/
 
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
 
 body {
     margin: 0 auto;
@@ -256,14 +257,24 @@ header {
     left: 239px;
     right: 239px;
     bottom: 564px;
-    font-family: Open Sans;
-    font-size: 16px;
+    font-family: "Open Sans";
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
     line-height: 22px;
-    letter-spacing: 0em;
     text-align: center;
     color: rgba(35, 39, 42, 1);
     position: absolute;
+}
+
+.imagePart04 {
+    width: 784px;
+    height: 508px;
+    position: absolute;
+    top: 225px;
+    left: 248px;
+    right: 248px;
+    bottom: 182px;
 }
 
 footer {
@@ -283,3 +294,7 @@ footer {
     left: 525px;
     padding: 9.26px, 0px, 10.66px, 0px;
 }
+
+
+/*CSS IPHONE 13 MAX*/
+
