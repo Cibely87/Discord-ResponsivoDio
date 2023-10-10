@@ -100,7 +100,7 @@ header {
     left: 154px;
     right: 154px;
     bottom: 1899px;
-    background: url(./Images/Section01.png) ;
+    background-image: url(./Images/Section01.png) ;
     background-repeat: no-repeat;
 }
 
@@ -298,3 +298,259 @@ footer {
 
 /*CSS IPHONE 13 MAX*/
 
+
+@media screen and (max-width: 497px){ 
+
+    body {
+        width: 428px;
+        height: 2792px;
+        top: -360px;
+        left: 722px;
+        background: rgba(255, 255, 255, 1);
+    }
+
+    header {
+        width: 428px;
+        height: 505px;
+        position: absolute;
+        background-image: url(./Images/Header\ Background.png);
+        background-size: contain;
+    }
+
+    .content h1 {
+        width: 278px;
+        height: 64px;
+        font-family: Luckiest Guy;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: rgba(255, 255, 255, 1);
+        position: absolute;
+    }
+
+    .firstText p {
+        width: 381px;
+        height: 132px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: rgba(255, 255, 255, 1);
+        position: absolute;
+    }
+
+    .donwWindows button {
+        width: 381px;
+        height: 54px;
+        border-radius: 28px;
+        left: 28px;
+        top: 305px;
+        position: absolute;
+    }
+
+    .openDiscord button {
+        width: 381px;
+        height: 52px;
+        border-radius: 28px;
+        position: absolute;
+        left: 28px;
+        top: 385px;
+        background: #23272a;
+    }
+
+    #part01 {
+        width: 381px;
+        height: 350px;
+        position: absolute;
+        left: 14px;
+        top: 540px;
+        background-image: url(./Images/Section01.png);
+        background-size: contain
+    }
+
+    #part01 h2 {
+        width: 370px;
+        height: 99px;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    #part01 p {
+        width: 378px;
+        height: 88px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    #part02 {
+        width: 448px;
+        height: 507px;
+        top: 1078px;
+        left: -20px;
+        top: 1100px;
+        padding: 40px, 24px, 40px, 24px;
+        gap: 27px;
+        position: absolute; 
+        background-image: url(./Images/Section02.png);
+        background-size: contain;
+    }
+
+    #part02 h2 {
+        width: 379px;
+        height: 33px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        left: 50px;
+        top: 275px;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    #part02 p {
+        height: 88px;
+        width: 378px;
+        left: 50px;
+        top: 325px;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    #part03 {
+        width: 428px;
+        height: 507px;
+        top: 1585px;
+        left: 1px;
+        padding: 40px, 24px, 40px, 24px;
+        gap: 27px;
+        background-image: url(./Images/Section03.png);
+        background-size: contain;
+        position: absolute;
+    }
+
+    #part03 h2 {
+        width: 373px;
+        height: 33px;
+        left: 30px;
+        top: 319px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    #part03 p {
+        width: 378px;
+        height: 88px;
+        top: 375px;
+        left: 30px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    #part04 {
+        width: 428px;
+        height: 560px;
+        top: 2092px;
+        left: 1px;
+        padding: 40px, 24px, 40px, 24px;
+        gap: 27px;
+        background: rgba(246, 246, 246, 1);
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #part04 h1 {
+        width: 300px;
+        height: 64px;
+        left: 70px;
+        right: 28px;
+        top: 40px;
+        bottom: 456px;
+        text-align: left;
+        font-family: "Luckiest Guy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+        
+    #part04 p {
+        width: 325px;
+        height: 110px;
+        margin: 0;
+        padding: 0;
+        top: 131px;
+        left: 75px;
+        right: 26px;
+        bottom: 319px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+        color: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    .imagePart04 {
+        width: 379px;
+        height: 252px;
+        top: 268px;
+        left: 60px;
+        right: 25px;
+        bottom: 40px;
+        position: absolute;
+    }
+
+    footer {
+        width: 428px;
+        height: 100px;
+        left: 0px;
+        top: 2725px;
+        background: rgba(35, 39, 42, 1);
+        position: absolute;
+    }
+
+    .imagemEnd {
+        width: 250px;
+        height: 45px;
+        left: 95px;
+        right: 134px;
+        top: 35px;
+        bottom: 58.61px;
+        position: absolute;
+    }
+}
